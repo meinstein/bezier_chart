@@ -1,0 +1,262 @@
+var data = [
+    {
+        "name": "A",
+        "x": "200",
+        "y": "300",
+        "sales":"10",
+        "xShop":[
+            {"xShopName": "B"},
+            {"xShopName": "C"},
+            {"xShopName": "D"},
+            {"xShopName": "E"},
+            {"xShopName": "F"},
+            {"xShopName": "G"},
+            {"xShopName": "H"},
+            {"xShopName": "I"},
+            {"xShopName": "J"},
+            {"xShopName": "K"},
+            {"xShopName": "L"},
+            {"xShopName": "M"}
+        ]
+    },
+        {
+        "name": "B",
+        "x": "-200",
+        "y": "300",
+        "sales":"10",
+        "xShop":[
+            {"xShopName": "A"},
+            {"xShopName": "C"},
+            {"xShopName": "D"},
+            {"xShopName": "E"},
+            {"xShopName": "F"},
+            {"xShopName": "G"},
+            {"xShopName": "H"},
+            {"xShopName": "I"},
+            {"xShopName": "J"},
+            {"xShopName": "K"},
+            {"xShopName": "L"},
+            {"xShopName": "M"}
+        ]
+    },
+        {
+        "name": "C",
+        "x": "-150",
+        "y": "-100",
+        "sales":"10",
+        "xShop":[
+            {"xShopName": "B"},
+            {"xShopName": "A"},
+            {"xShopName": "D"},
+            {"xShopName": "E"},
+            {"xShopName": "F"},
+            {"xShopName": "G"},
+            {"xShopName": "H"},
+            {"xShopName": "I"},
+            {"xShopName": "J"},
+            {"xShopName": "K"},
+            {"xShopName": "L"},
+            {"xShopName": "M"}
+        ]
+    },
+        {
+        "name": "D",
+        "x": "100",
+        "y": "-150",
+        "sales":"30",
+        "xShop":[
+            {"xShopName": "B"},
+            {"xShopName": "C"},
+            {"xShopName": "A"},
+            {"xShopName": "E"},
+            {"xShopName": "F"},
+            {"xShopName": "G"},
+            {"xShopName": "H"},
+            {"xShopName": "I"},
+            {"xShopName": "J"},
+            {"xShopName": "K"},
+            {"xShopName": "L"},
+            {"xShopName": "M"}
+        ]
+    },
+        {
+        "name": "E",
+        "x": "-100",
+        "y": "300",
+        "sales":"10",
+        "xShop":[
+            {"xShopName": "B"},
+            {"xShopName": "C"},
+            {"xShopName": "D"},
+            {"xShopName": "A"},
+            {"xShopName": "F"},
+            {"xShopName": "G"},
+            {"xShopName": "H"},
+            {"xShopName": "I"},
+            {"xShopName": "J"},
+            {"xShopName": "K"},
+            {"xShopName": "L"},
+            {"xShopName": "M"}
+        ]
+    },
+        {
+        "name": "F",
+        "x": "350",
+        "y": "300",
+        "sales":"10",
+        "xShop":[
+            {"xShopName": "B"},
+            {"xShopName": "C"},
+            {"xShopName": "D"},
+            {"xShopName": "E"},
+            {"xShopName": "A"},
+            {"xShopName": "G"},
+            {"xShopName": "H"},
+            {"xShopName": "I"},
+            {"xShopName": "J"},
+            {"xShopName": "K"},
+            {"xShopName": "L"},
+            {"xShopName": "M"}
+        ]
+    },
+        {
+        "name": "G",
+        "x": "-250",
+        "y": "50",
+        "sales":"10",
+        "xShop":[
+            {"xShopName": "B"},
+            {"xShopName": "C"},
+            {"xShopName": "D"},
+            {"xShopName": "E"},
+            {"xShopName": "F"},
+            {"xShopName": "A"},
+            {"xShopName": "H"},
+            {"xShopName": "I"},
+            {"xShopName": "J"},
+            {"xShopName": "K"},
+            {"xShopName": "L"},
+            {"xShopName": "M"}
+        ]
+    },
+        {
+        "name": "H",
+        "x": "250",
+        "y": "-250",
+        "sales":"10",
+        "xShop":[
+            {"xShopName": "B"},
+            {"xShopName": "C"},
+            {"xShopName": "D"},
+            {"xShopName": "E"},
+            {"xShopName": "F"},
+            {"xShopName": "G"},
+            {"xShopName": "A"},
+            {"xShopName": "I"},
+            {"xShopName": "J"},
+            {"xShopName": "K"},
+            {"xShopName": "L"},
+            {"xShopName": "M"}
+        ]
+    },
+        {
+        "name": "I",
+        "x": "200",
+        "y": "50",
+        "sales":"10",
+        "xShop":[
+            {"xShopName": "B"},
+            {"xShopName": "C"},
+            {"xShopName": "D"},
+            {"xShopName": "E"},
+            {"xShopName": "F"},
+            {"xShopName": "G"},
+            {"xShopName": "H"},
+            {"xShopName": "A"},
+            {"xShopName": "J"},
+            {"xShopName": "K"},
+            {"xShopName": "L"},
+            {"xShopName": "M"}
+        ]
+    },
+        {
+        "name": "J",
+        "x": "50",
+        "y": "50",
+        "sales":"10",
+        "xShop":[
+            {"xShopName": "B"},
+            {"xShopName": "C"},
+            {"xShopName": "D"},
+            {"xShopName": "E"},
+            {"xShopName": "F"},
+            {"xShopName": "G"},
+            {"xShopName": "H"},
+            {"xShopName": "I"},
+            {"xShopName": "A"},
+            {"xShopName": "K"},
+            {"xShopName": "L"},
+            {"xShopName": "M"}
+        ]
+    },
+        {
+        "name": "K",
+        "x": "-50",
+        "y": "-100",
+        "sales":"10",
+        "xShop":[
+            {"xShopName": "B"},
+            {"xShopName": "C"},
+            {"xShopName": "D"},
+            {"xShopName": "E"},
+            {"xShopName": "F"},
+            {"xShopName": "G"},
+            {"xShopName": "H"},
+            {"xShopName": "I"},
+            {"xShopName": "J"},
+            {"xShopName": "A"},
+            {"xShopName": "L"},
+            {"xShopName": "M"}
+        ]
+    },
+        {
+        "name": "L",
+        "x": "-350",
+        "y": "-250",
+        "sales":"10",
+        "xShop":[
+            {"xShopName": "B"},
+            {"xShopName": "C"},
+            {"xShopName": "D"},
+            {"xShopName": "E"},
+            {"xShopName": "F"},
+            {"xShopName": "G"},
+            {"xShopName": "H"},
+            {"xShopName": "I"},
+            {"xShopName": "J"},
+            {"xShopName": "K"},
+            {"xShopName": "A"},
+            {"xShopName": "M"}
+        ]
+    },
+        {
+        "name": "M",
+        "x": "-150",
+        "y": "-300",
+        "sales":"10",
+        "xShop":[
+            {"xShopName": "B"},
+            {"xShopName": "C"},
+            {"xShopName": "D"},
+            {"xShopName": "E"},
+            {"xShopName": "F"},
+            {"xShopName": "G"},
+            {"xShopName": "H"},
+            {"xShopName": "I"},
+            {"xShopName": "J"},
+            {"xShopName": "K"},
+            {"xShopName": "L"},
+            {"xShopName": "A"}
+        ]
+    },
+]
